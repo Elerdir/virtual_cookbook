@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="server:war exploded">
-    <output-path>$PROJECT_DIR$/server/target/server-0.0.1-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/server/target/server-23.1.1.001</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
@@ -28,7 +28,6 @@
           <element id="library" level="project" name="Maven: org.hibernate.common:hibernate-commons-annotations:6.0.2.Final" />
           <element id="library" level="project" name="Maven: org.jboss:jandex:2.4.2.Final" />
           <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.5.1" />
-          <element id="library" level="project" name="Maven: net.bytebuddy:byte-buddy:1.12.22" />
           <element id="library" level="project" name="Maven: org.glassfish.jaxb:jaxb-runtime:4.0.1" />
           <element id="library" level="project" name="Maven: org.glassfish.jaxb:jaxb-core:4.0.1" />
           <element id="library" level="project" name="Maven: org.eclipse.angus:angus-activation:1.0.0" />
@@ -74,10 +73,11 @@
           <element id="library" level="project" name="Maven: jakarta.activation:jakarta.activation-api:2.1.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:6.0.4" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:6.0.4" />
+          <element id="library" level="project" name="Maven: net.bytebuddy:byte-buddy:1.12.22" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/server/target/server-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/server/target/server-23.1.1.001/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="server/web/Web" />
     </root>
